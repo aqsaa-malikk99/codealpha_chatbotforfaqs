@@ -1,0 +1,6 @@
+# Libraries required for the Intelligent FAQ Bot
+pandas
+numpy
+scikit-learn
+sentence-transformers
+gradio
