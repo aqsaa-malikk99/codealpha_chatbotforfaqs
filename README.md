@@ -8,86 +8,6 @@ The key feature of this chatbot is its reliance on **Semantic Similarity**, whic
 
 A clean, interactive web interface is provided using the **Gradio** framework.
 
-### ✅ CodeAlpha Task 2 Requirements Met
-
-|
-
-Requirement
-
-|
-
-Status
-
-|
-
-Implementation Details
-
-|
-|
-
-**Collect FAQs**
-
-|
-
-**Complete**
-
-|
-
-Data is sourced from the included `faqs.csv` file.
-
-|
-|
-
-**Preprocess Text**
-
-|
-
-**Complete**
-
-|
-
-**Sentence Embeddings** are generated using `sentence-transformers`, which handles tokenization and vector representation.
-
-|
-|
-
-**Match User Questions**
-
-|
-
-**Complete**
-
-|
-
-**Semantic Matching** is performed via **Cosine Similarity** on the dense vectors created by the pre-trained `all-MiniLM-L6-v2` model.
-
-|
-|
-
-**Display Answer**
-
-|
-
-**Complete**
-
-|
-
-The best-matching FAQ answer is presented as the bot's response.
-
-|
-|
-
-**Optional: Simple Chat UI**
-
-|
-
-**Complete**
-
-|
-
-A dynamic web interface is built using **Gradio** for real-time interaction.
-
-|
 
 ### 🧠 Technical Intelligence (How It Works)
 
@@ -124,7 +44,7 @@ To run the chatbot, you need Python 3.8+ and the project files: `faq_ui.py`, `fa
 **1\. Clone the Repository:**
 
 ```
-git clone [https://github.com/YourUsername/CodeAlpha_ChatbotforFAQs.git](https://github.com/YourUsername/CodeAlpha_ChatbotforFAQs.git)
+git clone [repo]
 cd CodeAlpha_ChatbotforFAQs
 
 ```
